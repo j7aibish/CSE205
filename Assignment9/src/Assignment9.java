@@ -1,7 +1,7 @@
 // Assignment #: 9
 //         Name: Martin Kuna
-//    StudentID: 1206459510
-//      Lecture: TTH 3:00-4:15
+//    StudentID: <ID REMOVED>
+//      Lecture: <CLASS REMOVED>
 //  Description: Reads in a sequence of numbers (doubles) from standard input
 //  	until 0 is read, and stores them in an array. It then computes the
 //		maximum number stored in the array, the count of negative numbers,
@@ -51,6 +51,5 @@ public class Assignment9 {
 		return (a[i] > 0 ? a[i] : 0) + computeSumPositive(a, i+1);
 	}
 }
-//
 //MARTIN A. KUNA
 //
