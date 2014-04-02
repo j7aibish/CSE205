@@ -2,12 +2,7 @@
 //         Name: Martin Kuna
 //	  StudentID: <ID REMOVED>
 //		Lecture: <CLASS REMOVED>
-//  Description: The Assignment 5 class displays a menu of choices
-//               (add a drink, compute their total price, search a drink, list drinks,
-//               quit, display menu) to a user.
-//               Then it performs the chosen task. It will keep asking a user to
-//               enter the next choice until the choice of 'Q' (Quit) is
-//               entered.
+//  Description: MISSING
 
 import java.text.*;
 public abstract class Drink {
