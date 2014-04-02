@@ -21,7 +21,7 @@ public class Assignment9 {
 			input = Double.parseDouble(readLine);
 			array[i] = input;
 			i++;
-		} while ( input != 0 ); // while input is anything but 0.
+		} while ( input != 0 );
 
 		DecimalFormat fmt = new DecimalFormat("0.##");
 		
@@ -30,10 +30,11 @@ public class Assignment9 {
 		System.out.println("The sum of positive numbers is "+fmt.format(computeSumPositive(array, 0)));
 	}
 
-	public static double findMax(double[]a, int i){ //not yet working!
+	public static double findMax(double[]a, int i){
 		if(i == a.length) return 0;
-		double max=a[0];
-		return (a[i] > max ? 1 : 0) + findMax(a, i+1);
+		//double max=a[0];
+		//return (a[i] > max ? 1 : 0) + findMax(a, i+1);
+        return Math.max(a[i], findMax(a, i+1));
 	}
 	
 	public static int countNegative(double[]a,int i){
