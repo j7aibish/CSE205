@@ -20,4 +20,6 @@ I do not recommend you copying my code because...
 
 Instead, you may be able to, and I sugguest you do, LEARN something from these examples.
 
+*NOTE: There are A LOT of comments in many of the files*
+
 -MK
