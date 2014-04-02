@@ -15,8 +15,8 @@ public class DrinkInBox extends Drink {
 		depth = d;
 	}
 
-  public void computeTotalPrice(){
-    volume = height*width*depth;
+  	public void computeTotalPrice(){
+    		volume = height*width*depth;
 		totalPrice = volume*unitPrice;
 	}
 
