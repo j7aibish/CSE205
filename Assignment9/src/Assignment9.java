@@ -51,5 +51,3 @@ public class Assignment9 {
 		return (a[i] > 0 ? a[i] : 0) + computeSumPositive(a, i+1);
 	}
 }
-//MARTIN A. KUNA
-//
