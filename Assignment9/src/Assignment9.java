@@ -30,7 +30,7 @@ public class Assignment9 {
 		System.out.println("The sum of positive numbers is "+fmt.format(computeSumPositive(array, 0)));
 	}
 
-	public static double findMax(double[]a, int i){ //not yet working
+	public static double findMax(double[]a, int i){ //not yet working!
 		if(i == a.length) return 0;
 		double max=a[0];
 		return (a[i] > max ? 1 : 0) + findMax(a, i+1);
