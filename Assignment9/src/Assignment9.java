@@ -1,6 +1,12 @@
-//
-// MARTIN A. KUNA
-//
+// Assignment #: 9
+//         Name: Martin Kuna
+//    StudentID: 1206459510
+//      Lecture: TTH 3:00-4:15
+//  Description: Reads in a sequence of numbers (doubles) from standard input
+//  	until 0 is read, and stores them in an array. It then computes the
+//		maximum number stored in the array, the count of negative numbers,
+//		and computes the sum of positive numbers, using recursion.
+
 import java.text.DecimalFormat;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,8 +38,6 @@ public class Assignment9 {
 
 	public static double findMax(double[]a, int i){
 		if(i == a.length) return 0;
-		//double max=a[0];
-		//return (a[i] > max ? 1 : 0) + findMax(a, i+1);
         return Math.max(a[i], findMax(a, i+1));
 	}
 	
